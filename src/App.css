@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand-logo {
+  padding-left: 40px;
+  background: url("./Components/HomePage/img/left-logo.png");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.container {
+  margin-top: 20px;
+}
+.card .card-content {
+  padding: 11px !important;
+}
+
+.card .card-image img {
+  background-color: burlywood;
+}
+.collection .name {
+  font-size: 25px !important;
+}
+.collection .textarea {
+  min-height: 100px;
+}
+.collection .textarea-project {
+  min-height: 250px;
+}
+.backuserlist {
+  display: block;
+}
+.modal-button {
+  cursor: pointer;
+}
+.user-avatar {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 20rem;
+}
+.avatar-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20rem;
+  cursor: pointer;
+}
+.user-avatar:hover {
+  border: 2px solid;
+  border-color: mediumspringgreen;
+}
+
+.file-input {
+  display: "none";
+}
+.about-avatar {
+  width: 20rem !important;
+  height: 20rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  border-radius: 20rem !important;
+}
+.input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 0px !important;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0) !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  top: 2.5rem;
+  left: 10.5rem;
+  right: 10.5rem;
+  bottom: 23.5rem;
+}
+
+.Modal {
+  position: absolute;
+  top: 150px;
+  left: 298px;
+  right: 0px;
+  bottom: 0px;
+  height: 36%;
+  width: 51%;
+  outline: none;
+}
+
+.ReactModal__Overlay {
+  z-index: 999;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #008f68;
+  color: #fae042;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+.register-avatar {
+  margin-top: 20px;
+  padding-left: 150px;
+}
+.registration-form {
+  padding-left: 40px !important;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+.login-row {
+  max-width: 80%;
+}
+.login-container {
+  max-width: 40%;
+}
+.regist {
+  margin-bottom: 0;
+}
+.reg {
+  margin-bottom: 35px;
+}
+.Dropdown-control {
+  margin-bottom: 15px;
+}
+.cancel {
+  padding-top: 50px !important;
+}
+.save-changes {
+  margin-bottom: 20px;
+}
+.container .invalid-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
